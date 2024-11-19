@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoolCup</string>
+    <string name="On">ON</string>
+    <string name="Off">OFF</string>
+    <string name="Cool">COOLING MODE</string>
+    <string name="Cel">Celsius</string>
+    <string name="temp">Current Temerature</string>
+</resources>

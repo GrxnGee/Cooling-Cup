@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#206BAB"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/staatliches"
+            android:text="Cooling Cup!"
+            android:textColor="#FBFEFE"
+            android:textColorLink="#3FFFD8"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:srcCompat="@drawable/_1940_removebg_preview"
+        tools:ignore="MissingConstraints"
+
+        />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/staatliches"
+        android:textColor="#206BAB"
+        android:text="Temperature"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="200dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Switch
+        android:id="@+id/OnAndOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:onClick="onSwitch1Clicked"
+        android:shadowColor="#0B0A0A"
+        android:text="Turn On/Off "
+        android:textColor="#206BAB"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:gravity="center"
+        android:paddingLeft="130dp"
+        android:paddingTop="250dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#206BAB"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/anton"
+            android:gravity="center"
+            android:text="FOR EDUCATIONAL ONLY 1101143 PROJECT SURANAREE UNIVERSITY"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
